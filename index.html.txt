@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Bhongale | Computer Engineer Portfolio</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; color: #333; }
+        header { background-color: #1a252f; color: white; padding: 60px 20px; text-align: center; }
+        h1 { margin: 0; font-size: 2.5em; }
+        p { font-size: 1.2em; color: #bdc3c7; }
+        .container { max-width: 900px; margin: 30px auto; padding: 20px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.05); border-radius: 8px; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        .skills-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; }
+        .skills-list li { background: #3498db; color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.9em; }
+        .project-card { border-left: 4px solid #2ecc71; padding-left: 15px; margin-bottom: 20px; }
+        .project-title { font-weight: bold; font-size: 1.2em; color: #2c3e50; }
+        .footer { text-align: center; padding: 20px; color: #7f8c8d; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vaishnavi Bhongale</h1>
+    <p>Computer Engineering Graduate | Aspiring Data Analyst & Python Developer</p>
+</header>
+
+<div class="container">
+    <h2>About Me</h2>
+    <p>Hello! I am a 2026 BE Computer Engineering graduate. I love working with Python and solving problems using data. I am highly motivated to leverage my engineering background and analytical skills to extract meaningful insights from raw data.</p>
+</div>
+
+<div class="container">
+    <h2>Technical Skills</h2>
+    <ul class="skills-list">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Advanced Excel</li>
+        <li>Power BI</li>
+        <li>Data Analysis</li>
+    </ul>
+</div>
+
+<div class="container">
+    <h2>Projects</h2>
+    <div class="project-card">
+        <div class="project-title">Project 1: Retail Data Analysis using Python & SQL</div>
+        <p>Cleaned and analyzed a large dataset of transactions using Python (Pandas) and structured queries in SQL to find core purchasing patterns.</p>
+    </div>
+    <div class="project-card">
+        <div class="project-title">Project 2: Interactive Sales Dashboard</div>
+        <p>Built a dynamic Power BI dashboard that Visualizes business growth metrics and user retention trends.</p>
+    </div>
+</div>
+
+<div class="footer">
+    © 2026 Vaishnavi Bhongale | Built with Passion
+</div>
+
+</body>
+</html>
